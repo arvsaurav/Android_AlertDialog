@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    tools:context=".CustomAlertDialog">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:hint="username"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:hint="password"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="195dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
